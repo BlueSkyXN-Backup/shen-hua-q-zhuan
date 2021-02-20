@@ -1,0 +1,57 @@
+body{
+    padding: 4px;
+    margin: 0px;
+    /*-webkit-text-size-adjust: none;*/
+    /*-webkit-user-select: none;*/
+  background-image: url(/css/pgconvert.png);
+    background-repeat: repeat-x ;
+	letter-spacing: 0px;
+    font-size: 18px;
+	line-height: 26px;
+    font-family: '寰蒋闆呴粦','Microsoft YaHei';
+}
+
+p {
+	margin: 3px 0px 3px 0px;
+	padding: 0;
+}
+
+c{
+	padding-left:2px;
+	padding-right:2px;
+}
+
+
+a{
+	text-decoration: none;
+	color: #004299;
+}
+/*
+常用css属性说明：
+背景：background
+高度：height
+宽度：width
+边框：border
+字体：font
+外间距：margin
+內间距：padding
+*/
+input.link {
+    font-size: 1em;
+    text-align: left;
+    color: blue;
+    background: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    outline:none;
+text-decoration:underline;  //加下划线  
+}
+.link:hover{  
+        color:red;  
+        border: none;  
+        cursor: hand;  
+        cursor: pointer;  
+        text-decoration:underline;  //加下划线  
+    }  
